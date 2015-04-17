@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.androidguide" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity2"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name=".ActivityTerminology"
+            android:label="@string/title_activity_activity_terminology" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Websites"
+            android:label="@string/title_activity_websites" >
+        </activity>
+        <activity
+            android:name=".listView"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".active_listview"
+            android:label="@string/title_activity_active_listview" >
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".webPage"
+            android:label="@string/title_activity_web_page" >
+        </activity>
+    </application>
+
+</manifest>
